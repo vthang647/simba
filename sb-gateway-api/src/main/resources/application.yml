@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: sb-gateway-api
+  profiles:
+    active:
+      - local
