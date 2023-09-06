@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/centralize_configuration</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="PTPM_FINALLY_JAVA_SOF306@localhost" uuid="82675309-3a3a-49c3-8e2a-443289a30baa">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://localhost:1433;database=PTPM_FINALLY_JAVA_SOF306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

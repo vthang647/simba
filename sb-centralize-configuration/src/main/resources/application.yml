@@ -29,7 +29,10 @@ spring:
   liquibase:
     change-log: "classpath:/db/changelog/changelog-master.xml"
     enabled: true
-
+    parameters:
+      DATABASE_URL: localhost:5432
+      DB_USER: user_db
+      DB_PRODUCT: product_db
 
   jpa:
     open-in-view: false

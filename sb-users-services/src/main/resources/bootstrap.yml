@@ -1,5 +1,7 @@
 spring:
   cloud:
     config:
-      uri: http://localhost:8888/aml-centralize-configuration/
+      uri: http://localhost:8888/sb-centralize-configuration/
       label: default
+  datasource:
+    url:
